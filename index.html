@@ -24,47 +24,47 @@
                 <div class="form-group">
                     <input type="text" id="title" placerholder="Title" class="form-control">
                 </div>
-                <div class="row">
+                <div class="row" id="cost">
                     <div class="col-md-2">
                         <div class="form-group">
-                            <input type="text" placeholder="Price" class="form-control">
+                            <input type="text" id="price" placeholder="Price" class="form-control">
                         </div>
                     </div>
     
                     <div class="col-md-2">
                         <div class="form-group">
-                            <input type="text" placeholder="Taxes" class="form-control">
+                            <input type="text" id="tax" placeholder="Taxes" class="form-control">
                         </div>
                     </div>
     
                     <div class="col-md-3">
                         <div class="form-group">
-                            <input type="text" placeholder="TransferCost" class="form-control">
+                            <input type="text" id="Tcost" placeholder="TransferCost" class="form-control">
                         </div>
                     </div>
     
                     <div class="col-md-3">
                         <div class="form-group">
-                            <input type="text" placeholder="Discount" class="form-control">
+                            <input type="text" id="discount" placeholder="Discount" class="form-control">
                         </div>
                     </div>
     
                     <div class="col-md-2">
                         <div class="form-group">
-                            <input type="text" readonly placeholder="Total" class="form-control">
+                            <input type="text" id="total" readonly placeholder="Total" class="form-control">
                         </div>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <input type="text" placeholder="Count" class="form-control">
+                    <input type="text" id="count" placeholder="Count" class="form-control">
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Department" class="form-control">
+                    <input type="text" id="department" placeholder="Department" class="form-control">
                 </div>
 
                 <div class="d-grid">
-                    <button class="btn btn-info"> Create</button>
+                    <button class="btn btn-info" id="btnCreate"> Create</button>
                 </div>
 
 
@@ -81,7 +81,7 @@
     <div class="container-fluid">
         <div class="card">
             <div class="card-body">
-                <table class="table table-dark"></table>
+                <table class="table table-dark">
                 <tr>
                     <th>ID</th>
                     <th>Title</th>
@@ -92,6 +92,7 @@
                     <th>Department</th>
 
                 </tr>
+            </table>
 
             </div>
         </div>
